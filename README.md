@@ -30,7 +30,7 @@ If you managed to do this, congratulations! You now have complete access to the 
 ## UART
 Behold, the UART interface in all its glory.
 
-Of course looking at it you'd suspect that it would be UART judging by the four pins, shape and outline surrounding. But of course it's alwawys best to check. Looking online I was able to identify the J203 interface and...
+Looking at it you'd suspect that it would be UART judging by the four pins, shape and outline surrounding. But of course it's alwawys best to check. Looking online I was able to identify the J203 interface and...
 
 ... It is in fact UART!
 
