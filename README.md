@@ -1,4 +1,4 @@
-# Hardware-Hacking-the-vodafone-THG3000
+# Hardware-Hacking-the-Vodafone-THG3000
 This is the documentation of my process in dumping the vodafone THG3000 router's firmware.
 
 ## Warning
