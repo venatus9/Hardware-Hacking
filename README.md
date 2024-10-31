@@ -2,7 +2,7 @@
 This is the documentation of my process in dumping the vodafone THG3000 router's firmware.
 
 ## Warning
-If you wish to recreate any of the steps shown in this documentation, I would like to remind you that you are responsible for the damages you will incur.
+If you wish to recreate any of the steps shown in this documentation, I would like to remind you that you are solely responsible for the damages you will incur.
 
 
 ## Introduction
@@ -12,7 +12,7 @@ If you have heeded my earlier warning, I would recommend you have a screwdriver 
 
 With that being said, lets get started!
 
-# HACKING BEGINS
+# HACKING START
 
 ## Opening the router
 The first step in hacking the router is opening the router.
