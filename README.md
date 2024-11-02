@@ -19,6 +19,7 @@ The first step in hacking the router is opening the router.
 
 Screws on the bottom panel held some promise, they can be unscrewed using a T10 tip screwdriver.
 
+![IMG_20241102_184146__01__01.jpg](https://github.com/user-attachments/assets/8eb2bbc7-7d5f-47e9-87b7-a52be8683be8)
 However, upon further inspection it simply removes the bottom stand.
 
 Typical - the actual shell of the router has been glued shut. Companies that manufacture hardware such as routers generally don't want you fiddling with their internal components. As a result, sadly we have to bite the bullet and mangle the shell to get access to the circuit board.
