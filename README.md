@@ -26,6 +26,8 @@ Typical - the actual shell of the router has been glued shut. Companies that man
 
 There is a small seam at the top which can be pried with a thin object. I used a pair of scissors. Simply pry up and down the seam, and when it is fully loose, continue with the sides of the router. Finally, once that's through you should just be able to pull the front and back of the router apart (be careful as doing this too quickly or with too much strength risks tearing the antenna - which isn't all that bad in terms of firmware dumping, but causes some problems later on if you're planning to actually use the router). Be sure to carefully remove the antenna from the back panel before setting the shell aside.
 
+![IMG_20241102_184639.jpg](https://github.com/user-attachments/assets/4e3843d7-4614-463e-9d96-4c697f7a0965)
+
 If you managed to do this, congratulations! You now have complete access to the circuit board and can move on to the next step - locating the UART interface.
 
 ## UART
