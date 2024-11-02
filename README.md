@@ -28,7 +28,7 @@ There is a small seam at the top which can be pried with a thin object. I used a
 
 ![IMG_20241102_184639.jpg](https://github.com/user-attachments/assets/4e3843d7-4614-463e-9d96-4c697f7a0965)
 
-If you managed to do this, congratulations! You now have complete access to the circuit board and can move on to the next step - locating the UART interface.
+If you managed to do this, congratulations! You now have complete access to the circuit board and can move on to the next step - locating the UART interface. I would recommend looking for it yourself before moving on to the next section where I show you its location (that is of course if you are using the same make and model as me).
 
 ![IMG_20241102_184917.jpg](https://github.com/user-attachments/assets/8d896874-0dc1-4be9-aec6-f82d765cce0d)
 
