@@ -39,6 +39,8 @@ Behold, the suspected UART interface in all its glory.
 
 Looking at it you'd suspect that it would be UART judging by the four pins, shape and outline surrounding. But of course it's always best to check. Looking online for the J203 interface I was able to identify two similar interfaces labelled J203 including UART alongside a PTA interface. However, considering the fact that this interface on the board is not being visibly utilised by anything on the pins and the connection to a nearby chip on the backside of the board rather than any antenna, I concluded...
 
+![IMG_20241102_184948__01__01.jpg](https://github.com/user-attachments/assets/0bfac6f0-8c34-432a-84a8-7b990aa2fcd8)
+
 ... This in fact should be UART!
 
 Now we have to identify which pin is which.
