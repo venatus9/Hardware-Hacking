@@ -43,4 +43,4 @@ Looking at it you'd suspect that it would be UART judging by the four pins, shap
 
 ... This in fact should be UART!
 
-Now we have to identify which pin is which.
+Now we have to identify which pin is which. I hope you have a multimeter handy!
