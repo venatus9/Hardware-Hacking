@@ -45,10 +45,15 @@ Looking at it you'd suspect that it would be UART judging by the four pins, shap
 
 Now we have to identify which pin is which. I hope you have a multimeter handy!
 
+It is easiest to find the GND (ground) pin first, so set your multimeter to the below configuration - negative probe (black) to common interface (COM), positive probe (red) to the voltage, resistance and frequency terminal, finally set your multimeter to continuity mode, or to sound mode if your multimeter is like mine.
+
 ![IMG_20241105_144001.jpg](https://github.com/user-attachments/assets/59463ae4-fcd5-48f5-9ad3-73b766d78028)
 
+Place one probe on any metal sticking out on the board, the metal cover with the heat sink should do. From here simply check each pin on the UART interface. If it beeps, that's your ground pin!
 
 ![IMG_20241105_144419.jpg](https://github.com/user-attachments/assets/caf3200e-3e92-4baf-b0bf-c6d92c764e8d)
+
+We've identified the second pin to be GND. We could visibly suspect this due to it being visibly an odd-one-out, but now it's confirmed!
 
 ![IMG_20241102_184948__01__01__01__01.jpg](https://github.com/user-attachments/assets/d4d877b8-beb4-4bb4-aa95-16f8ab59224e)
 
