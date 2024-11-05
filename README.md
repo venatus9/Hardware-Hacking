@@ -44,3 +44,6 @@ Looking at it you'd suspect that it would be UART judging by the four pins, shap
 ... This in fact should be UART!
 
 Now we have to identify which pin is which. I hope you have a multimeter handy!
+
+![IMG_20241105_144001.jpg](https://github.com/user-attachments/assets/59463ae4-fcd5-48f5-9ad3-73b766d78028)
+
