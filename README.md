@@ -47,3 +47,6 @@ Now we have to identify which pin is which. I hope you have a multimeter handy!
 
 ![IMG_20241105_144001.jpg](https://github.com/user-attachments/assets/59463ae4-fcd5-48f5-9ad3-73b766d78028)
 
+
+![IMG_20241105_144419.jpg](https://github.com/user-attachments/assets/caf3200e-3e92-4baf-b0bf-c6d92c764e8d)
+
