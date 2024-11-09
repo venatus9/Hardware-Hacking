@@ -51,7 +51,7 @@ It is easiest to find the ground pin (GND) first, so set your multimeter to the 
 
 Place one probe on any metal sticking out on the board, the metal cover with the heat sink should do. From here simply check each pin on the UART interface. If it beeps, that's your ground pin (GND)!
 
-
+![IMG_20241105_144419__01.jpg](https://github.com/user-attachments/assets/95473afe-ae1b-4b6a-a220-ebd9c7d498eb)
 
 We've identified the second pin to be ground (GND). We could visibly suspect this due to it being visibly an odd-one-out, but now it's confirmed!
 
