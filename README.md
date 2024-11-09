@@ -77,6 +77,8 @@ It is at this point that I ran into some minor trouble identifying the pins - no
 
 Power (VCC) will have the highest voltage out of all of the pins on the UART interface, second highest belongs to the transmit pin (TX) and the lowest (apart from ground (GND) at 0) will be the receive pin (RX). From this we can safely assume that the 1st pin is power (VCC) and the 4th is receive (RX), it also makes more sense to have the power pin (VCC) next to the ground pin (GND).
 
+![IMG_20241102_184948__01__01__01__04__01.jpg](https://github.com/user-attachments/assets/710c6cdd-b59c-4376-927f-b4ef9803fc1f)
+
 I was able to confidently identify the 3rd pin as transmit (TX) due to its variable voltage.
 
 With that done, we've mapped our UART interface!
