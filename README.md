@@ -71,7 +71,11 @@ We've already identified ground to be the second pin, the next order of business
 The transmit pin (TX) is usually relatively simple to identify as the voltage should frequently fluctuate. This is because on the router's startup, it transmits information through this pin. Be sure to turn your router on and off repeatedly in order to make sure that this is the case, as after a while of being on the router may stop transmitting.
 The receive pin (RX) is quite similar to ground, it should come up with no voltage when checked. The reason for this is because it expects input from this pin, so it shouldn't give any recogniseable signal, and if it does it should be steady similar to power.
 
-It is at this point that I ran into some minor trouble identifying the pins - none of the pins give an exact 3.33V or 5V, which would be a dead giveaway. Two of the pins give steady volatges - the 1st and 4th. One of these is power (VCC) and the other is receive (RX). The first gives a 3.38V/3.37V signal, and the other gives a 3.21V/3.22V signal. It is at this point we have to make an educated guess. Power (VCC) will have the highest voltage out of all of the pins on the UART interface, second highest belongs to the transmit pin (TX) and the lowest (apart from ground (GND) at 0) will be the receive pin (RX). From this we can safely assume that the 1st pin is power (VCC) and the 4th is receive (RX), it also makes more sense to have the power pin (VCC) next to the ground pin (GND).
+It is at this point that I ran into some minor trouble identifying the pins - none of the pins give an exact 3.33V or 5V, which would be a dead giveaway. Two of the pins give steady volatges - the 1st and 4th. One of these is power (VCC) and the other is receive (RX). The first gives a 3.38V/3.37V signal, and the other gives a 3.21V/3.22V signal. It is at this point we have to make an educated guess.
+
+![IMG_20241102_184948__01__01__01__04__03.jpg](https://github.com/user-attachments/assets/f747f741-ae06-4564-a41b-3a220e648531)
+
+Power (VCC) will have the highest voltage out of all of the pins on the UART interface, second highest belongs to the transmit pin (TX) and the lowest (apart from ground (GND) at 0) will be the receive pin (RX). From this we can safely assume that the 1st pin is power (VCC) and the 4th is receive (RX), it also makes more sense to have the power pin (VCC) next to the ground pin (GND).
 
 I was able to confidently identify the 3rd pin as transmit (TX) due to its variable voltage.
 
