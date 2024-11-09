@@ -87,6 +87,8 @@ I was able to confidently identify the 3rd pin as transmit (TX) due to its varia
 
 With that done, we've mapped our UART interface!
 
+![IMG_20241102_184948__01__01__01__04__02__02.jpg](https://github.com/user-attachments/assets/e5e9c824-4031-4b5f-ac76-dcfdfe8a43ed)
+
 Now comes the most nerve-wracking step in this project...
 
 ... Soldering.
