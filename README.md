@@ -79,6 +79,8 @@ Power (VCC) will have the highest voltage out of all of the pins on the UART int
 
 ![IMG_20241102_184948__01__01__01__04__01.jpg](https://github.com/user-attachments/assets/710c6cdd-b59c-4376-927f-b4ef9803fc1f)
 
+![IMG_20241102_184948__01__01__01__04__02__01.jpg](https://github.com/user-attachments/assets/7822f516-3b04-43e0-824b-2bbb0e857b7b)
+
 I was able to confidently identify the 3rd pin as transmit (TX) due to its variable voltage.
 
 With that done, we've mapped our UART interface!
