@@ -67,7 +67,7 @@ UART consists of 4 pins, those being:
 * Transmit (TX)
 * Receive (RX)
 
-We've already identified ground to be the second pin, the next order of business will be power (VCC). The way we identify this pin is through a steady voltage that doesn't change and stays around either 3.33V or 5V.
+We've already identified ground (GND) to be the second pin, the next order of business will be power (VCC). The way we identify this pin is through a steady voltage that doesn't change and stays around either 3.33V or 5V.
 The transmit pin (TX) is usually relatively simple to identify as the voltage should frequently fluctuate. This is because on the router's startup, it transmits information through this pin. Be sure to turn your router on and off repeatedly in order to make sure that this is the case, as after a while of being on the router may stop transmitting.
 The receive pin (RX) is quite similar to ground, it should come up with no voltage when checked. The reason for this is because it expects input from this pin, so it shouldn't give any recogniseable signal, and if it does it should be steady similar to power.
 
