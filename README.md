@@ -32,7 +32,7 @@ If you managed to do this, congratulations! You now have complete access to the 
 
 ![IMG_20241102_184917.jpg](https://github.com/user-attachments/assets/8d896874-0dc1-4be9-aec6-f82d765cce0d)
 
-## UART
+## identifying UART
 Behold, the suspected UART interface in all its glory.
 
 ![IMG_20241102_184917__01.jpg](https://github.com/user-attachments/assets/03fa8d1d-7d09-44bd-a757-d9d7db596155)
@@ -53,11 +53,11 @@ Place one probe on any metal sticking out on the board, the metal cover with the
 
 ![IMG_20241105_144419__01.jpg](https://github.com/user-attachments/assets/95473afe-ae1b-4b6a-a220-ebd9c7d498eb)
 
-We've identified the second pin to be ground (GND). We could visibly suspect this due to it being visibly an odd-one-out, but now it's confirmed!
+We've identified the 2nd pin to be ground (GND). We could visibly suspect this due to it being visibly an odd-one-out, but now it's confirmed!
 
 ![IMG_20241102_184948__01__01__01__01.jpg](https://github.com/user-attachments/assets/d4d877b8-beb4-4bb4-aa95-16f8ab59224e)
 
-Now comes the hard part - the rest of the pins.
+Now it get tricker, for here comes the rest of the pins.
 
 Set your multimeter to 20 DC volatage and turn on the router. We'll go through the rest of the pins by keeping the negative probe on the ground pin, while cycling through the rest of the pins.
 
@@ -76,3 +76,10 @@ It is at this point that I ran into some minor trouble identifying the pins - no
 I was able to confidently identify the 3rd pin as transmit (TX) due to its variable voltage.
 
 With that done, we've mapped our UART interface!
+
+Now comes the most nerve-wracking step in this project...
+
+... Soldering.
+
+## Soldering Pin Headers
+
