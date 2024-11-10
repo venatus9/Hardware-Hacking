@@ -95,5 +95,5 @@ Now comes the most nerve-wracking step in this project...
 
 ## Soldering Pin Headers
 
-In order to connect to the router via the UART interface, chances are you're going to have to attach some pin headers into the board as most manufacturers remove them before shipping. If you are lucky enough to have gotten your hands on a board with pin headers already soldered on, you can skip this entire chapter.
+In order to connect to the router via the UART interface, chances are you're going to have to attach some pin headers onto the board as most manufacturers remove them before shipping. If you are lucky enough to have gotten your hands on a board with pin headers already soldered on, you can skip this entire chapter.
 
