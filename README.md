@@ -1,5 +1,5 @@
 # Hardware-Hacking-a-Router !!!WIP!!!
-This is the documentation of my process in dumping the vodafone THG3000 router's firmware.
+This is the documentation of my process in accessing the vodafone THG3000 router's terminal through UART.
 
 ## Warning
 If you wish to recreate any of the steps shown in this documentation, I would like to remind you that you are solely responsible for the damages you will incur.
@@ -95,7 +95,27 @@ Now comes the most nerve-wracking step in this project...
 
 ## Soldering Pin Headers
 
-In order to connect to the router via the UART interface, chances are you're going to have to attach some pin headers onto the board as most manufacturers remove them before shipping. If you are lucky enough to have gotten your hands on a board with pin headers already soldered on, you can skip this entire chapter. You may even be somewhat lucky and already have solder attached to the pins, like the pins on my board. With this case you may only have to heat up the solder on the pins in order to attach the headers.
+In order to connect to the router via the UART interface, chances are you're going to have to attach some pin headers onto the board as most manufacturers remove them before shipping. If you are lucky enough to have gotten your hands on a board with pin headers already soldered on, you can skip this entire chapter.
 
 With that being said, lets get to it and hope we don't set off any fire alarms.
+
+I was quite unlucky with my board, as there is already pins on the board. You may say "oh, they've done half the work for you!", but this is actually quite the inconvenience as you cannot properly solder the pins on the board (something I had to find out the hard way). To add on to this, the actual pins are spaced closer together than the header pins I have, this led to to resort to stripping the plastic off of my header pins and making the entire process much more finicky.
+
+My first attempt to desolder the pins was rather frustrating - I could only barely get any of the solder off and my iron wouldn't go any deeper into the pins. I eventually resorted to simply attempting to solder the pins on top, which worked for a time before eventually snapping off.
+
+I had used my multimeter to check if the pins had bridged during soldering, and to my horror both the TX and RX pins seemed to be reading the same value, despite being completely disconnected.
+
+I was very unsure as to what was happening, but decided to continue forth regardless with viewing the UART transmitted data through a terminal and simply hold the pins in place by hand.
+
+## Viewing the Terminal
+
+Hopefully now the pin headers are properly connected to your board, at this point you can take a look at the data being transferred through these pins!
+
+You will need to use some kind of UART to USB connector as well as some software in order to read the data. If you're blessed to have a flipper zero like I am, you can simply use the UART terminal built in to view without the need for a computer.
+
+Repeatedly turning the router on and off, switching between baud rates I find that on a baud rate of 2400...
+
+
+
+... The data is readable!
 
