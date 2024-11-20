@@ -1,4 +1,4 @@
-# Hardware-Hacking-a-Router !!!WIP!!!
+# Hardware-Hacking-The-Vodafone-THG3000 !!!WIP!!!
 This is the documentation of my process in accessing the vodafone THG3000 router's terminal through UART.
 
 ## Warning
