@@ -119,3 +119,10 @@ Repeatedly turning the router on and off, switching between baud rates I find th
 
 ... The data is readable!
 
+## Unforseen problems
+
+While the data was readable, after retrying the pins had disconnected on my router, and afer quite some time resoldering, I must've fried the UART pins.
+
+What a shame! I won't be able to take another look at what was inside, perhaps it may still work with enough delicate effort, but it would also further risk irreversibly cooking the PCB. Serves me right for using a cheap soldering iron. The important part though was getting in in the first place! With this lesson learned I'm sure other projects will find even further success.
+
+I hope you learned something from this little project of mine, if you found it interesting I will be going through more similar hardware in the future (hopefully with a little more on reading the data!), but for now have a lovely day and thank you for reading along.
